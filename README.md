@@ -7,7 +7,7 @@ Freehub is a member and shop visit [application](https://github.com/asalant/free
 ##Pull the repository
 
 ```
-docker pull bikebike/bikebike
+docker pull bikebike/freehub
 ```
 
 
