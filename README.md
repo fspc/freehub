@@ -22,6 +22,10 @@ Publish the container's port to the host:
 docker run -d -p 3000:3000 --name="freehub" bikebike/freehub
 ```
 
+##Password
+
+Password is *test* for **greeter**, **sfbk**, **mechanic**, **scbc**, **cbi**, **admin**.
+
 ##How to test/develop inside the running container process 
 
 This method uses [nsenter](http://jpetazzo.github.io/2014/06/23/docker-ssh-considered-evil/).  Check out [jpetazzo/nsenter](https://github.com/jpetazzo/nsenter) on GitHub. 
