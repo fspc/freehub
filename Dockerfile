@@ -8,7 +8,7 @@ LABEL Jonathan Rosenbaum <gnuser@gmail.com>
 
 RUN git clone https://github.com/asalant/freehub.git
 
-# requires >= ruby-2.3 so will need to update Docker
+# requires >= ruby-2.3 so will need to update the BikeBike image
 RUN gem install bundler
 #RUN apt-get -y install ruby-dev
 RUN bundle install --gemfile=/freehub/Gemfile
